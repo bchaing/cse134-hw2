@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="description" content="A portfolio site for showcasing projects and skills." />
+	<meta name="keywords" content="HTML, CSS, JavaScript" />
+	<meta name="author" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Personal Portfolio</title>
+	<link href="images/favicon.ico" rel="icon" />
+	<link href="styles/main.css" rel="stylesheet" />
+	<script>
+	</script>
+</head>
+
+<body>
+	<header>
+		<h1>Brandon Chaing's Portfolio</h1>
+		
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+
+	</header>
+
+	<main>
+		<h2>UCSD Images</h2>
+		<section class="img">
+			<img src="images/bear.png" alt="Warren Bear" height="430" width="700" />
+			<img src="images/triton.jpg" alt="Triton" height="430" width="700" />
+			<a href="https://ucsd.edu" target="_blank"><img src="images/ucsd.gif" alt="UCSD" height="177"
+				width="700"></a>
+			<br />
+			<section id="links">
+				<h2>Useful Links</h2>
+				<ul>
+					<li><a href="http://tritonlink.ucsd.edu">TritonLink</a></li>
+					<li><a href="http://canvas.ucsd.edu">Canvas</a></li>
+					<li><a href="http://w3.org">W3</a></li>
+				</ul>
+			</section>
+
+		<section class="video">
+			<h2>UCSD Promo Video</h2>
+			<video controls height="393" width="700">
+				<source src="videos/videoplayback.mp4" type="video/mp4" />
+				<div class="error">Your browser does not support the video tag.</div>
+			</video>
+		</section>
+			<br />
+
+		</section>
+	</main>
+
+	<footer>
+		<hr/>
+		<p>💯This page was made with &hearts; by Brandon Chaing 💯</p>
+	</footer>
+	<script type="module">
+		import { update } from './scripts/main.js';
+		window.update = update;
+	</script>
+	<script nomodule src="scripts/main-es5.js"></script>
+</body>
+
+</html>
