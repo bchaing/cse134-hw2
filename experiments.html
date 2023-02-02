@@ -30,8 +30,54 @@
 
 	</header>
 
+	<hr />
+
 	<main>
+		<h2>Selection Elements</h2>
+		<p>Here are some examples of selection elements.</p>
 		
+		<p><em>OptGroups</em></p>
+		<select>
+			<optgroup label="Group 1">
+				<option>Option 1</option>
+				<option>Option 2</option>
+			</optgroup>
+			<optgroup label="Group 2">
+				<option>Option 3</option>
+				<option>Option 4</option>
+			</optgroup>
+		</select>
+
+		<br />
+
+		<p><strong>Datalist</strong></p>
+		<input list="datalist-test">
+			<datalist id="datalist-test">
+				<option value="Option 1">
+				<option value="Option 2">
+				<option value="Option 3">
+			</datalist>
+		</input>
+
+		<br />
+
+		<p>Fieldset</p>
+		<form>
+			<fieldset>
+				<legend>This is the legend</legend>
+
+				<input type="radio" value="1" id="1" />
+				<label for="1">1</label>
+
+
+				<input type="radio" value="2" id="2" />
+				<label for="2">2</label>
+
+
+				<input type="radio" value="3" id="3" />
+				<label for="3">3</label>
+			</fieldset>
+		</form>
 	</main>
 
 	<footer>
